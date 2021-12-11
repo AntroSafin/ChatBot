@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>Application Form</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&family=Urbanist:wght@100;300&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="login.css">
+	</head>
+	<body>
+		<div class="container">
+			<div class = "left">
+				<span class="nature-img"><img src = "https://images.financialexpress.com/2020/11/1-260.jpg" height = "300px" width="300px"></span>
+				<div class="below-pic">
+					&emsp;&emsp;MORATORIUM-A TEMPORARY PAUSE IN ACTIVITY!<br>
+                </div>
+                <br><br><br><br><br>
+                <div>
+                    RBI GUIDELINES FOR MORATORIUM
+                </div>
+                <br>
+                <div class="pic">
+                    "The moratorium period, if granted, may be for a maximum of two years, and shall come into force immediately upon implementation of the resolution plan. The extension of the residual tenor of the loan facilities may also be granted to borrowers, with or without payment moratorium."
+                </div>
+			</div>
+			<div class="right">
+				<div class="signup-container">
+					<div class="signup-box">
+						<span class="signup">MORATORIUM APPLICATION FORM</span>
+					</div>
+					<div class="signup-form">
+						<form action="FormEntry.jsp" method="post">
+							<label for = "username" class="username">UserName:</label>
+							<input type="text" name="username" placeholder="Enter user name" class="form-input">
+							<br>
+							<label for = "email" class="email">Email:</label>
+							<input type="text" name="email" placeholder="Enter email" class="form-input">
+							<br>
+							<label for = "mobileno" class="mobileno">MobileNo:</label>
+                            <input type="mobileno" name="mobileno" class="form-input" placeholder="Enter Mobile No">
+                            <br>
+                            <br>
+                            <span>Before 2 months</span>
+                            <br>
+                            <label for = "income" class="income">Monthly income</label>
+                            <input type="income" name="income" class="form-input" placeholder="Enter Monthly income">
+                            <br>
+                            <br>
+                            <span>Expected income after moratorium period</span>
+                            <br>
+                            <label for = "income1" class="income1">Monthly income</label>
+                            <input type="income1" name="income1" class="form-input" placeholder="Enter Monthly income">
+                            <br>
+                            <br>
+                            <span>Total amount of all EMIs(if any)</span>
+                            <br>
+                            <label for = "income2" class="income2">Total EMI amount</label>
+                            <input type="income2" name="income2" class="form-input" placeholder="Enter the amount">
+                            <br>
+                            <br>
+                            <label for = "reason" class="reason">Reasons for Applying</label>
+                            <input type="reason" name="reason" class="form-input" placeholder="Enter the reason">
+                            <br>
+                            <br>
+
+                            <span>Valid only for 24 months</span>
+                            <br>
+                            <label>Moratorium period: </label>
+                            <input type="number" name="num" min="0" max="24">
+                            <br>
+                            <br>
+                            <span>Are you paying the Equated Monthly Installment of aforesaid loan regularly</span>
+                            <label for = "income3" class="income3"></label>
+                            <input type="income3" name="income3" class="form-input" placeholder="Enter yes or no">
+                            <br>
+                            <br>
+                            <span>
+                                I/We, will/would like to state here that, due to the impact of disruptions on account 
+of COVID-19 pandemic, I/We shall not be able to repay my/our monthly installments of 
+aforesaid loan account /service my/our interest charged on Working Capital Account as 
+mentioned above. 
+In the above circumstances , I/We shall seek relief in terms of RBI Guidelines issued 
+in this regard and request the Bank to - 
+i) Grant me/us moratorium of three months for payment of all installments/EMI and extend the existing repayment schedule of our/my said loan as also the residual 
+tenor for the above mentioned months
+ii)Grant me/us deferment on Interest being charged on my/our CC/ODCC/OD Account
+                            </span>
+                            <br>
+                            <br>
+                            <input type="checkbox" id="agree" name="agree" value="agree">
+                            <label for="agree">I agree to the above terms and conditions and i wish to extend the payment of all installments</label><br>
+                            <br>
+                            <br>
+							<button type="submit" name="signup" class="form-input signup-btn">Apply</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

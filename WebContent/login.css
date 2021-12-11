@@ -1,0 +1,85 @@
+@charset "ISO-8859-1";
+body{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	background-color:#42535B;
+	font-family: 'Urbanist', sans-serif;
+	align-items:center;
+}
+a{
+	color:inherit;
+	text-decoration:none;
+}
+
+.container{
+	margin:90px 120px;
+	background-color:#287aa0;
+	color:white;
+	display:flex;
+	justify-content:space-between;
+}
+.left{
+	padding:3% 5%;
+	width:30%;
+	margin:30px;
+}
+.below-pic{
+	margin-top:40px;
+	text-align:center;
+}
+.right{
+	background-color:white;
+	display:flex;
+	justify-content:center;
+	color:black;
+	padding:30px;
+	width:50%;
+}
+.signup-header{
+	font-size:23px;
+}
+
+.signup-box{
+	margin-top:70px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.signup{
+	font-size:23px;
+	font-weight:600;
+	font-family: 'Roboto Slab', serif;
+}
+.signup-form{
+	display:flex;
+	justify-content:space-between;
+	text-aling:center;
+	margin-top:30px;
+}
+
+.form-input{
+	border:none;
+	text-decoration:none;
+	outline:none;
+	border-bottom:1px solid black;
+	padding:10px;
+	margin-left:20px;
+}
+
+.email{
+	margin-right:38px;
+}
+.password{
+	margin-right:8px;
+}
+.signup-btn{
+	border:none;
+	font-family: 'Roboto Slab', serif;
+	border-radius:50px;
+	background-color:#42535B;
+	color:white;
+	font-size:13px;
+	padding:8px 15px;
+	margin-left:200px;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>ChatBot</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<meta name="viewport" content="width-device-width, initial-scale=1.0">
+</head>
+<body>
+	<style>
+        body {
+          background-image: url('https://i.pinimg.com/originals/fc/b3/70/fcb3707738ef3d246ee32af065fe8510.png');
+          background-repeat: no-repeat;
+          background-attachment: fixed;  
+          background-size: cover;
+        }
+</style>
+	<input type="checkbox" id="click">
+	<label for="click">
+		<i class="fab fa-facebook-messenger"></i>
+		<i class="fas fa-times"></i>
+	</label>
+	<div class="wrapper">
+		<div class="head-text">
+			Let's chat? - online
+		</div>
+		<div class="chat-box">
+			<div class="desc-text">Please fill the form to start chat</div>
+			<form action="loginlog.jsp" method="post">
+				<div class="field">
+					<input type="text" placeholder="Your Name" name="username" required>
+				</div>
+				<div class="field">
+					<input type="text" placeholder="Your email address" name="email" required>
+				</div>
+				<div class="field">
+					<button type="submit">Start chat</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
