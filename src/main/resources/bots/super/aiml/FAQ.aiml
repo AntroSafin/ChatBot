@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+    <category>
+        <pattern>no reason</pattern>
+        <template>Sorry we can't provide moratorium unnecessarily</template>
+    </category>
+    
+    <category>
+        <pattern>apply</pattern>
+        <template>To Apply <a href="form.html">Click Here</a></template>
+    </category>
+    <category>
+        <pattern>^ form ^</pattern>
+        <template>To Apply <a href="form.html">Click Here</a></template>
+    </category>
+        
+   
+      <category>
+    <pattern>hi</pattern>
+    <template>
+        <random>
+            <li>Hi. I'm a bot agent from SBI Bank.Here,You can either apply for moratorium or clarify your doubts regarding moratorium
+            <button>Type "APPLY" for applying</button>
+            <button>Type "DOUBT" for queries</button></li>
+            <li>Hello!I'm a bot agent from SBI Bank.Here,You can either apply for moratorium or clarify your doubts regarding moratorium  <button>Type "APPLY" for applying</button>
+            <button>Type "DOUBT" for queries</button></li>            <li>Hi!I'm a bot agent from SBI Bank.Here,You can either apply for moratorium or clarify your doubts regarding moratorium  <button>Type "APPLY" for applying</button>
+            <button>Type "DOUBT" for queries</button></li>
+            <li>Hey! I'm a bot agent from SBI Bank.Here,You can either apply for moratorium or clarify your doubts regarding moratorium  <button>Type "APPLY" for applying</button>
+            <button>Type "DOUBT" for queries</button></li>
+            
+        </random>
+    </template>
+  </category>
+  <category>
+      <pattern>^ after ^ moratorium ^</pattern>
+      <template>The repayment schedule for such loans as also the residual tenor, will be shifted across the board by three months after the moratorium period. Interest shall continue to accrue on the outstanding portion of the term loans during the moratorium period.</template>
+  </category>
+  <category>
+      <pattern>^ documents ^</pattern>
+      <template>No, no document is required. You can just fill the form.</template>
+  </category>
+  <category>
+      <pattern>^ in between moratorium ^</pattern>
+      <template>Yes,You can pay in between moratorium period as usual.</template>
+  </category>
+     <category>
+    <pattern>WHAT IS YOUR NAME</pattern>
+    <template>my name is chatbot</template>
+    </category>
+     <category>
+    <pattern>WAT IS YOUR NAME</pattern>
+    <template><srai>what is your name</srai></template>
+    </category>
+    <category>
+    <pattern>HOW CAN I CALL YOU</pattern>
+    <template><srai>what is your name</srai></template>
+    </category>
+     <category>
+    <pattern>DO YOU HAVE ANY NAME</pattern>
+    <template><srai>what is your name</srai></template>
+    </category>
+    <!--<topic name="doubts">-->
+     <category>
+        <pattern>DOUBT</pattern>
+        <template>Will be happy to clarify that.</template>
+    </category>
+    
+    <category>
+        <pattern>IS RESCHEDULING ^</pattern>
+        <template>Yes. It is applicable for all term loans in all the segments, irrespective of the segment and the tenor of the term loans.</template>
+    </category>
+    <category>
+        <pattern>WHY MORATORIUM ^</pattern>
+        <template>
+            RBI has announced certain regulatory measures to mitigate the burden of debt servicing brought about by disruptions on account of COVID-19 pandemic and to ensure the continuity of viable businesses. It was felt that there may be a temporary disruption in the cash-flows and, in some cases loss of income, for the businesses/ individuals and the present measures work to bring relief to those businesses / individuals.
+        </template>
+    </category>
+     <category>
+        <pattern> ^ INCLUDES INTEREST</pattern>
+        <template>
+            Rescheduling of principal can be done for a period of three months falling due between 1 March 2020 and 31 May 2020. For example, where the last instalment of a term loan falls due for payment of on say 1st March, it will become payable on 1 June 2020.
+ For EMI-based term loans, it will be three EMIs falling due between 1 March 2020 and 31 May 2020 and the tenor will be extended by three months and have to be repaid during the extended period, as per the example under (2) above.
+        </template>
+    </category>
+    <category>
+        <pattern> ^ WITH INTEREST</pattern>
+        <template>
+           <srai> ^ INCLUDES INTEREST</srai>
+        </template>
+    </category>
+     <category>
+        <pattern> ^ EXTEND THE PERIOD</pattern>
+        <template>
+         Yes,You can extend it for all such term loans without the need for seeking deviations or approvals.
+        </template>
+    </category>
+     <category>
+        <pattern>SHOULD I ^ </pattern>
+        <template>
+        You may take the benefits under this package if there is a disruption in your cash flows or there is loss of income. However, you must take into account that the interest on the loans, though not mandatorily payable immediately and gets postponed by three months, continues to accrue on your account and results in higher cost.
+ 
+To give you a perspective, suppose your loan outstanding is Rs100,000 and you are charged 12% rate of interest on your loans, then every month you are liable to pay Rs1,000 as interest. In case you opt not to service the interest every month, you are liable to pay interest at 12% p.a. and accordingly you will pay Rs3,030.10 at the end of 3rd month.
+ 
+Similarly, in case the interest rate is 10%, you are required to pay Rs833 per month or Rs2,521 after three months.
+        </template>
+    </category>
+     <category>
+        <pattern>SHALL I ^ </pattern>
+        <template><srai>SHOULD I ^ </srai>
+        </template>
+    </category>
+     <category>
+        <pattern> IS IT ^ </pattern>
+        <template>Yes it is
+        </template>
+    </category>
+    <category>
+        <pattern> ^ BENEFITS ^</pattern>
+        <template><srai>SHOULD I ^ </srai>
+        </template>
+    </category>
+     <category>
+        <pattern> ^ INBETWEEN MORATORIUM PERIOD  </pattern>
+        <template>This option to defer payments on loans is a relief granted to borrowers due to disruption caused due to the unprecedented outbreak of COVID-19. However, the borrower has the option to continue scheduled payments during this moratorium; or avail of the benefit of the Moratorium.
+        </template>
+    </category>
+    <category>
+        <pattern> ^ CREDIT CARD ^</pattern>
+        <template>The relief is available for credit card payments also.
+ 
+In case of credit card dues, there is a requirement to pay minimum amount and, if it is not paid, it gets reported to credit bureaus. In view of the RBI circular, the overdues in the credit card account do not get reported to the credit bureaus for a period of three months.
+ 
+However, interest will be charged by the credit card issuer on unpaid amount. You should check from your card-provider, to arrive at interest payable. 
+ 
+Although no penal interest will be charged during this period, you must remember that the interest rate on credit card dues are normally much higher compared to normal bank credit and you should take a decision accordingly.
+        </template>
+    </category>
+    <category>
+        <pattern>IS IT BENEFICIAL </pattern>
+        <template><srai>SHOULD I ^ </srai>
+        </template>
+    </category>
+    <!-- <category>-->
+    <!--    <pattern>RUPEES</pattern>-->
+    <!--    <template>Total EMI's of other loans if any?</template>-->
+    <!--</category>-->
+   
+    
+     <category>
+        <pattern>WHAT IS MORATORIUM</pattern>
+        <template>A moratorium is a temporary suspension of activity until future events warrant lifting of the suspension or related issues have been resolved.
+       </template>
+    </category>
+     <!--</topic>    -->
+          <category>
+    <pattern>hii</pattern>
+    <template><srai><star/>hi</srai></template>
+    </category>
+     <category>
+    <pattern>hiii</pattern>
+    <template><srai><star/>hi</srai></template>
+    </category>
+     <category>
+    <pattern>hey</pattern>
+    <template><srai><star/>hi</srai></template>
+    </category>
+    <category>
+    <pattern>hello</pattern>
+    <template><srai><star/>hi</srai></template>
+    </category>
+    <category>
+         <!--<that> Do you want to apply for moratorium?</that>-->
+        <pattern>NO</pattern>
+        <template>Respecting your decision.The way it works is simple.Give it a try</template>
+    </category>
+     <category>
+         <!--<that> Do you want to apply for moratorium?</that>-->
+        <pattern>YES</pattern>
+        <template>Thats a wise decision.</template>
+    </category>
+     <category>
+        <pattern>WHAT IS MY NAME</pattern>
+        <template><star/>YOUR NAME IS <get name="firstname"/>.</template>
+    </category>
+    <category>
+        <pattern>I AM CONFUSED</pattern>
+        <template>Take your time!</template>
+    </category>
+     <category>
+    <pattern>*</pattern>
+    <template>Can you please briefly explain
+        </template>
+    </category>
+    <category>
+        <pattern>^ who created you ^</pattern>
+        <template>Team Webios from SKCET created me</template>
+    </category>
+    <category>
+        <pattern>^ place ^ request ^</pattern>
+        <template>You need to place a request before 26th of the month, prior to the month in which EMI will be getting debited from your bank account.</template>
+    </category>
+    <category>
+        <pattern>^ request ^ accepted ^</pattern>
+        <template>Yes, we will mail you</template>
+    </category>
+    
+    
+    
+    <category>
+        <pattern>^ steps ^ </pattern>
+        <template> Some of the most common ways are:  Raising a request for moratorium via Email.  Submitting a handwritten application to the home branch.  Reaching out to the nearest bank. Or fill the application form that i provide</template>
+    </category>
+    
+    <category>
+        <pattern>^ apply ^ moratorium ^</pattern>
+        <template>Tell me the reason why you applying for moratorium </template>
+    </category>
+    <category>
+        <pattern>^ eligible ^ moratorium ^</pattern>
+        <template>Yes, we can provide moratorium for every customers.</template>
+    </category>
+    <category>
+        <pattern>^ what ^ interest ^</pattern>
+        <template>You need not pay anything during the moratorium period.</template>
+    </category>
+    <category>
+        <pattern>^ will ^ interest ^</pattern>
+        <template>You need not pay anything during the moratorium period.</template>
+    </category>
+    <category>
+        <pattern>^ pay ^</pattern>
+        <template>You need not pay anything during the moratorium period.</template>
+    </category>
+    <category>
+        <pattern>^ Thanks ^</pattern>
+        <template><srai>thanking</srai></template>
+    </category>
+    <category>
+        <pattern>^ thank ^</pattern>
+        <template><srai>thanking</srai></template>
+    </category>
+    <category>
+        <pattern>okay</pattern>
+        <template><srai>Mm</srai></template>
+    </category>
+    <category>
+        <pattern>ok</pattern>
+        <template><srai>Mm</srai></template>
+    </category>
+    <category>
+        <pattern>fine</pattern>
+        <template><srai>Mm</srai></template>
+    </category>
+    <category>
+        <pattern>oh</pattern>
+        <template><srai>Mm</srai></template>
+    </category>
+    <category>
+        <pattern>Mm</pattern>
+        <template>Mm</template>
+    </category>
+    <category>
+        <pattern>^ boring ^</pattern>
+        <template>I wish I could entertain you</template>
+    </category>
+    
+    <category>
+        <pattern>^ bored ^</pattern>
+        <template>I wish I could entertain you</template>
+    </category>
+    <category>
+        <pattern>thanking</pattern>
+        <template>You are welcome. I am here to help you</template>
+    </category>
+    <category>
+        <pattern>^ covid ^</pattern>
+        <template>Everything will be fine soon.</template>
+    </category>
+    <category>
+        <pattern>_I am * *</pattern>
+        <template><srai>My name is <set name="firstname"><star index="1"/></set><set name="lastname"><star index="2"/></set></srai></template>
+    </category>
+    <category>
+        <pattern>I am *</pattern>
+        <template><srai>My name is <set name="firstname"></set><star/></srai></template>
+    </category>
+    <category>
+        <pattern>My name is *</pattern>
+        <template>Charming name, <star index="1"/></template>
+    </category>
+    <category>
+        <pattern>U can call me *</pattern>
+        <template><srai>My name is <set name="firstname"></set><star/></srai></template>
+    </category>
+  
+ 
+     <category>
+    <pattern>WHAT IS YOUR NAME</pattern>
+    <template>my name is chatbot</template>
+    </category>
+     <category>
+    <pattern>WAT IS YOUR NAME</pattern>
+    <template><srai>what is your name</srai></template>
+    </category>
+    <category>
+    <pattern>HOW CAN I CALL YOU</pattern>
+    <template><srai>what is your name</srai></template>
+    </category>
+     <category>
+    <pattern>DO YOU HAVE ANY NAME</pattern>
+    <template><srai>what is your name</srai></template>
+    </category>
+    <category>
+        <pattern>OKAY ^</pattern>
+        <template>What was your monthly income before two months and your present monthly income(in words)
+        Eg:four thousand rupees</template>
+    </category>
+  
+    
+    <!--<topic name="doubts">-->
+     <category>
+        <pattern> ^ DOUBT ^</pattern>
+        <template>Will be happy to clarify that.</template>
+    </category>
+     <category>
+        <pattern> ^ DOUBTS ^</pattern>
+        <template>Will be happy to clarify that.</template>
+    </category>
+    
+    <category>
+        <pattern>IS RESCHEDULING *</pattern>
+        <template>Yes. It is applicable for all term loans in all the segments, irrespective of the segment and the tenor of the term loans.</template>
+    </category>
+    <category>
+        <pattern>WHY MORATORIUM *</pattern>
+        <template>
+            RBI has announced certain regulatory measures to mitigate the burden of debt servicing brought about by disruptions on account of COVID-19 pandemic and to ensure the continuity of viable businesses. It was felt that there may be a temporary disruption in the cash-flows and, in some cases loss of income, for the businesses/ individuals and the present measures work to bring relief to those businesses / individuals.
+        </template>
+    </category>
+     <category>
+        <pattern> ^ INCLUDES INTEREST</pattern>
+        <template>
+            Rescheduling of principal can be done for a period of three months falling due between 1 March 2020 and 31 May 2020. For example, where the last instalment of a term loan falls due for payment of on say 1st March, it will become payable on 1 June 2020.
+ For EMI-based term loans, it will be three EMIs falling due between 1 March 2020 and 31 May 2020 and the tenor will be extended by three months and have to be repaid during the extended period, as per the example under (2) above.
+        </template>
+    </category>
+    <category>
+        <pattern> ^ WITH INTEREST</pattern>
+        <template>
+           <srai> ^ INCLUDES INTEREST</srai>
+        </template>
+    </category>
+     <category>
+        <pattern> ^ EXTEND THE PERIOD</pattern>
+        <template>
+         Yes,You can extend it for all such term loans without the need for seeking deviations or approvals.
+        </template>
+    </category>
+     <category>
+        <pattern>SHOULD I ^ </pattern>
+        <template>
+        You may take the benefits under this package if there is a disruption in your cash flows or there is loss of income. However, you must take into account that the interest on the loans, though not mandatorily payable immediately and gets postponed by three months, continues to accrue on your account and results in higher cost.
+ 
+To give you a perspective, suppose your loan outstanding is Rs100,000 and you are charged 12% rate of interest on your loans, then every month you are liable to pay Rs1,000 as interest. In case you opt not to service the interest every month, you are liable to pay interest at 12% p.a. and accordingly you will pay Rs3,030.10 at the end of 3rd month.
+ 
+Similarly, in case the interest rate is 10%, you are required to pay Rs833 per month or Rs2,521 after three months.
+        </template>
+    </category>
+     <category>
+        <pattern>SHALL I ^ </pattern>
+        <template><srai>SHOULD I ^ </srai>
+        </template>
+    </category>
+     <category>
+        <pattern> IS IT ^ </pattern>
+        <template>Yes it is
+        </template>
+    </category>
+    <category>
+        <pattern> WHAT ARE THE BENEFITS </pattern>
+        <template><srai>SHOULD I ^ </srai>
+        </template>
+    </category>
+     <category>
+        <pattern> ^ INBETWEEN MORATORIUM PERIOD  </pattern>
+        <template>This option to defer payments on loans is a relief granted to borrowers due to disruption caused due to the unprecedented outbreak of COVID-19. However, the borrower has the option to continue scheduled payments during this moratorium; or avail of the benefit of the Moratorium.
+        </template>
+    </category>
+    <category>
+        <pattern> ^ CREDIT CARD</pattern>
+        <template>The relief is available for credit card payments also.
+ 
+In case of credit card dues, there is a requirement to pay minimum amount and, if it is not paid, it gets reported to credit bureaus. In view of the RBI circular, the overdues in the credit card account do not get reported to the credit bureaus for a period of three months.
+ 
+However, interest will be charged by the credit card issuer on unpaid amount. You should check from your card-provider, to arrive at interest payable. 
+ 
+Although no penal interest will be charged during this period, you must remember that the interest rate on credit card dues are normally much higher compared to normal bank credit and you should take a decision accordingly.
+        </template>
+    </category>
+    <category>
+        <pattern>IS IT BENEFICIAL </pattern>
+        <template><srai>SHOULD I ^ </srai>
+        </template>
+    </category>
+    <!-- <category>-->
+    <!--    <pattern>RUPEES</pattern>-->
+    <!--    <template>Total EMI's of other loans if any?</template>-->
+    <!--</category>-->
+   
+    
+     <category>
+        <pattern>WHAT IS MORATORIUM</pattern>
+        <template>A moratorium is a temporary suspension of activity until future events warrant lifting of the suspension or related issues have been resolved.
+       </template>
+    </category>
+    <category>
+         <!--<that> Do you want to apply for moratorium?</that>-->
+        <pattern>NO</pattern>
+        <template>Respecting your decision.The way it works is simple.Give it a try</template>
+    </category>
+     <category>
+         <!--<that> Do you want to apply for moratorium?</that>-->
+        <pattern>YES</pattern>
+        <template>Thats a wise decision!</template>
+    </category>
+     <category>
+        <pattern>WHAT IS MY NAME</pattern>
+        <template><star/>YOUR NAME IS <get name="firstname"/>.</template>
+    </category>
+    <category>
+        <pattern>i am CONFUSED ^</pattern>
+        <template>Take your time!</template>
+    </category>
+    <category>
+        <pattern>^ confusing ^</pattern>
+        <template>Sorry to hear</template>
+    </category>
+   
+    <category>
+        <pattern>^ BALANCE ^</pattern>
+        <template>For your account info, you can use our app or visit the bank</template>
+    </category>
+    <category>
+        <pattern>bye ^</pattern>
+        <template><srai>goodbye</srai></template>
+    </category>
+    <category>
+        <pattern>^ bye</pattern>
+        <template><srai>goodbye</srai></template>
+    </category>
+    <category>
+        <pattern>goodbye</pattern>
+        <template>Goodbye ! have a good time !</template>
+    </category>
+    
+  
+</aiml>

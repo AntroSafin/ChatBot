@@ -1,0 +1,71 @@
+0,NO REASON,*,*,Sorry we can't provide moratorium unnecessarily,FAQ.aiml
+0,APPLY,*,*,To Apply <a href="form.html">Click Here</a>,FAQ.aiml
+0,^ FORM ^,*,*,To Apply <a href="form.html">Click Here</a>,FAQ.aiml
+0,HI,*,*,<random>#Newline            <li>Hi. I'm a bot agent from SBI Bank.Here#CommaYou can either apply for moratorium or clarify your doubts regarding moratorium#Newline            <button>Type "APPLY" for applying</button>#Newline            <button>Type "DOUBT" for queries</button></li>#Newline            <li>Hello!I'm a bot agent from SBI Bank.Here#CommaYou can either apply for moratorium or clarify your doubts regarding moratorium  <button>Type "APPLY" for applying</button>#Newline            <button>Type "DOUBT" for queries</button></li>            <li>Hi!I'm a bot agent from SBI Bank.Here#CommaYou can either apply for moratorium or clarify your doubts regarding moratorium  <button>Type "APPLY" for applying</button>#Newline            <button>Type "DOUBT" for queries</button></li>#Newline            <li>Hey! I'm a bot agent from SBI Bank.Here#CommaYou can either apply for moratorium or clarify your doubts regarding moratorium  <button>Type "APPLY" for applying</button>#Newline            <button>Type "DOUBT" for queries</button></li>#Newline            #Newline        </random>,FAQ.aiml
+0,^ AFTER ^ MORATORIUM ^,*,*,The repayment schedule for such loans as also the residual tenor#Comma will be shifted across the board by three months after the moratorium period. Interest shall continue to accrue on the outstanding portion of the term loans during the moratorium period.,FAQ.aiml
+0,^ DOCUMENTS ^,*,*,No#Comma no document is required. You can just fill the form.,FAQ.aiml
+0,^ IN BETWEEN MORATORIUM ^,*,*,Yes#CommaYou can pay in between moratorium period as usual.,FAQ.aiml
+0,DOUBT,*,*,Will be happy to clarify that.,FAQ.aiml
+0,IS RESCHEDULING ^,*,*,Yes. It is applicable for all term loans in all the segments#Comma irrespective of the segment and the tenor of the term loans.,FAQ.aiml
+0,WHY MORATORIUM ^,*,*,RBI has announced certain regulatory measures to mitigate the burden of debt servicing brought about by disruptions on account of COVID-19 pandemic and to ensure the continuity of viable businesses. It was felt that there may be a temporary disruption in the cash-flows and#Comma in some cases loss of income#Comma for the businesses/ individuals and the present measures work to bring relief to those businesses / individuals.,FAQ.aiml
+0,^ BENEFITS ^,*,*,<srai>SHOULD I ^ </srai>,FAQ.aiml
+0,^ CREDIT CARD ^,*,*,The relief is available for credit card payments also.#Newline #NewlineIn case of credit card dues#Comma there is a requirement to pay minimum amount and#Comma if it is not paid#Comma it gets reported to credit bureaus. In view of the RBI circular#Comma the overdues in the credit card account do not get reported to the credit bureaus for a period of three months.#Newline #NewlineHowever#Comma interest will be charged by the credit card issuer on unpaid amount. You should check from your card-provider#Comma to arrive at interest payable. #Newline #NewlineAlthough no penal interest will be charged during this period#Comma you must remember that the interest rate on credit card dues are normally much higher compared to normal bank credit and you should take a decision accordingly.,FAQ.aiml
+0,HII,*,*,<srai><star/>hi</srai>,FAQ.aiml
+0,HIII,*,*,<srai><star/>hi</srai>,FAQ.aiml
+0,HEY,*,*,<srai><star/>hi</srai>,FAQ.aiml
+0,HELLO,*,*,<srai><star/>hi</srai>,FAQ.aiml
+0,I AM CONFUSED,*,*,Take your time!,FAQ.aiml
+0,*,*,*,Can you please briefly explain,FAQ.aiml
+0,^ WHO CREATED YOU ^,*,*,Team Webios from SKCET created me,FAQ.aiml
+0,^ PLACE ^ REQUEST ^,*,*,You need to place a request before 26th of the month#Comma prior to the month in which EMI will be getting debited from your bank account.,FAQ.aiml
+0,^ REQUEST ^ ACCEPTED ^,*,*,Yes#Comma we will mail you,FAQ.aiml
+0,^ STEPS ^,*,*,Some of the most common ways are:  Raising a request for moratorium via Email.  Submitting a handwritten application to the home branch.  Reaching out to the nearest bank. Or fill the application form that i provide,FAQ.aiml
+0,^ APPLY ^ MORATORIUM ^,*,*,Tell me the reason why you applying for moratorium,FAQ.aiml
+0,^ ELIGIBLE ^ MORATORIUM ^,*,*,Yes#Comma we can provide moratorium for every customers.,FAQ.aiml
+0,^ WHAT ^ INTEREST ^,*,*,You need not pay anything during the moratorium period.,FAQ.aiml
+0,^ WILL ^ INTEREST ^,*,*,You need not pay anything during the moratorium period.,FAQ.aiml
+0,^ PAY ^,*,*,You need not pay anything during the moratorium period.,FAQ.aiml
+0,^ THANKS ^,*,*,<srai>thanking</srai>,FAQ.aiml
+0,^ THANK ^,*,*,<srai>thanking</srai>,FAQ.aiml
+0,OKAY,*,*,<srai>Mm</srai>,FAQ.aiml
+0,OK,*,*,<srai>Mm</srai>,FAQ.aiml
+0,FINE,*,*,<srai>Mm</srai>,FAQ.aiml
+0,OH,*,*,<srai>Mm</srai>,FAQ.aiml
+0,MM,*,*,Mm,FAQ.aiml
+0,^ BORING ^,*,*,I wish I could entertain you,FAQ.aiml
+0,^ BORED ^,*,*,I wish I could entertain you,FAQ.aiml
+0,THANKING,*,*,You are welcome. I am here to help you,FAQ.aiml
+0,^ COVID ^,*,*,Everything will be fine soon.,FAQ.aiml
+0,_I AM * *,*,*,<srai>My name is <set name="firstname"><star index="1"/></set><set name="lastname"><star index="2"/></set></srai>,FAQ.aiml
+0,I AM *,*,*,<srai>My name is <set name="firstname"/><star/></srai>,FAQ.aiml
+0,MY NAME IS *,*,*,Charming name#Comma <star index="1"/>,FAQ.aiml
+0,U CAN CALL ME *,*,*,<srai>My name is <set name="firstname"/><star/></srai>,FAQ.aiml
+0,WHAT IS YOUR NAME,*,*,my name is chatbot,FAQ.aiml
+0,WAT IS YOUR NAME,*,*,<srai>what is your name</srai>,FAQ.aiml
+0,HOW CAN I CALL YOU,*,*,<srai>what is your name</srai>,FAQ.aiml
+0,DO YOU HAVE ANY NAME,*,*,<srai>what is your name</srai>,FAQ.aiml
+0,OKAY ^,*,*,What was your monthly income before two months and your present monthly income(in words)#Newline        Eg:four thousand rupees,FAQ.aiml
+0,^ DOUBT ^,*,*,Will be happy to clarify that.,FAQ.aiml
+0,^ DOUBTS ^,*,*,Will be happy to clarify that.,FAQ.aiml
+0,IS RESCHEDULING *,*,*,Yes. It is applicable for all term loans in all the segments#Comma irrespective of the segment and the tenor of the term loans.,FAQ.aiml
+0,WHY MORATORIUM *,*,*,RBI has announced certain regulatory measures to mitigate the burden of debt servicing brought about by disruptions on account of COVID-19 pandemic and to ensure the continuity of viable businesses. It was felt that there may be a temporary disruption in the cash-flows and#Comma in some cases loss of income#Comma for the businesses/ individuals and the present measures work to bring relief to those businesses / individuals.,FAQ.aiml
+0,^ INCLUDES INTEREST,*,*,Rescheduling of principal can be done for a period of three months falling due between 1 March 2020 and 31 May 2020. For example#Comma where the last instalment of a term loan falls due for payment of on say 1st March#Comma it will become payable on 1 June 2020.#Newline For EMI-based term loans#Comma it will be three EMIs falling due between 1 March 2020 and 31 May 2020 and the tenor will be extended by three months and have to be repaid during the extended period#Comma as per the example under (2) above.,FAQ.aiml
+0,^ WITH INTEREST,*,*,<srai> ^ INCLUDES INTEREST</srai>,FAQ.aiml
+0,^ EXTEND THE PERIOD,*,*,Yes#CommaYou can extend it for all such term loans without the need for seeking deviations or approvals.,FAQ.aiml
+0,SHOULD I ^,*,*,You may take the benefits under this package if there is a disruption in your cash flows or there is loss of income. However#Comma you must take into account that the interest on the loans#Comma though not mandatorily payable immediately and gets postponed by three months#Comma continues to accrue on your account and results in higher cost.#Newline #NewlineTo give you a perspective#Comma suppose your loan outstanding is Rs100#Comma000 and you are charged 12% rate of interest on your loans#Comma then every month you are liable to pay Rs1#Comma000 as interest. In case you opt not to service the interest every month#Comma you are liable to pay interest at 12% p.a. and accordingly you will pay Rs3#Comma030.10 at the end of 3rd month.#Newline #NewlineSimilarly#Comma in case the interest rate is 10%#Comma you are required to pay Rs833 per month or Rs2#Comma521 after three months.,FAQ.aiml
+0,SHALL I ^,*,*,<srai>SHOULD I ^ </srai>,FAQ.aiml
+0,IS IT ^,*,*,Yes it is,FAQ.aiml
+0,WHAT ARE THE BENEFITS,*,*,<srai>SHOULD I ^ </srai>,FAQ.aiml
+0,^ INBETWEEN MORATORIUM PERIOD,*,*,This option to defer payments on loans is a relief granted to borrowers due to disruption caused due to the unprecedented outbreak of COVID-19. However#Comma the borrower has the option to continue scheduled payments during this moratorium; or avail of the benefit of the Moratorium.,FAQ.aiml
+0,^ CREDIT CARD,*,*,The relief is available for credit card payments also.#Newline #NewlineIn case of credit card dues#Comma there is a requirement to pay minimum amount and#Comma if it is not paid#Comma it gets reported to credit bureaus. In view of the RBI circular#Comma the overdues in the credit card account do not get reported to the credit bureaus for a period of three months.#Newline #NewlineHowever#Comma interest will be charged by the credit card issuer on unpaid amount. You should check from your card-provider#Comma to arrive at interest payable. #Newline #NewlineAlthough no penal interest will be charged during this period#Comma you must remember that the interest rate on credit card dues are normally much higher compared to normal bank credit and you should take a decision accordingly.,FAQ.aiml
+0,IS IT BENEFICIAL,*,*,<srai>SHOULD I ^ </srai>,FAQ.aiml
+0,WHAT IS MORATORIUM,*,*,A moratorium is a temporary suspension of activity until future events warrant lifting of the suspension or related issues have been resolved.,FAQ.aiml
+0,NO,*,*,Respecting your decision.The way it works is simple.Give it a try,FAQ.aiml
+0,YES,*,*,Thats a wise decision!,FAQ.aiml
+0,WHAT IS MY NAME,*,*,<star/>YOUR NAME IS <get name="firstname"/>.,FAQ.aiml
+0,I AM CONFUSED ^,*,*,Take your time!,FAQ.aiml
+0,^ CONFUSING ^,*,*,Sorry to hear,FAQ.aiml
+0,^ BALANCE ^,*,*,For your account info#Comma you can use our app or visit the bank,FAQ.aiml
+0,BYE ^,*,*,<srai>goodbye</srai>,FAQ.aiml
+0,^ BYE,*,*,<srai>goodbye</srai>,FAQ.aiml
+0,GOODBYE,*,*,Goodbye ! have a good time !,FAQ.aiml
